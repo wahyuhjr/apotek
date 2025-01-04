@@ -3,7 +3,7 @@ import pool from '@/lib/db';
 
 export async function GET() {
   try {
-    const result = await pool.query('SELECT * FROM obat');
+    const result = await pool.query('SELECT * FROM Obat ORDER BY id LIMIT 10');
     return NextResponse.json(result.rows);
   } catch (error) {
     return NextResponse.json(
