@@ -1,6 +1,6 @@
 
 import Link from "next/link"
-import { Home, Settings, User } from "lucide-react"
+import { Home, Settings, User, DollarSign } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 const menuItems = [
@@ -17,6 +17,11 @@ const menuItems = [
   {
     title: "Pemasok",
     icon: Settings,
+    href: "/pemasok"
+  },
+  {
+    title: "Transaksi",
+    icon: DollarSign,
     href: "/pemasok"
   }
 ]

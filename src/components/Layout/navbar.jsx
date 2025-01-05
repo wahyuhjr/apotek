@@ -18,11 +18,11 @@ export function Navbar() {
               <Sidebar />
             </SheetContent>
           </Sheet>
-          <h1 className="font-bold text-xl">Pharmacy</h1>
+          <h1 className="font-bold text-xl">Moneker</h1>
         </div>
         {/* Profile section */}
         <div className="flex items-center gap-2">
-          <span className="text-sm font-medium">User</span>
+          <span className="text-sm font-medium">Hallo, Admin</span>
           <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center">
             <span className="text-sm font-medium">
                 <User className="h-5 w-5" />
